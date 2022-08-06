@@ -2,13 +2,11 @@ package com.java8.streamapi;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class ParallelStreamDemo {
 	
 	public static void main(String[] args) {
 		
-		Stack<Integer> stack=new Stack<Integer>();
 		 
         long t1, t2;
         List<Employee> eList = new ArrayList<Employee>();
@@ -37,3 +35,5 @@ public class ParallelStreamDemo {
     }
 
 }
+
+
