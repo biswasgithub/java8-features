@@ -75,9 +75,7 @@ public class StreamAPIDemo {
 		list2.add("Spring Boot in Action");
 		list2.add("Effective Java (3nd Edition)");
 		Customer c2 = new Customer(50, "Roky", 35000, list2);
-
 		Customer c3 = new Customer(70, "Demi", 70000, Arrays.asList("C", "Java"));
-
 		Customer c4 = new Customer(30, "Rimi", 30000, Arrays.asList("C", "Java"));
 		Customer c5 = new Customer(60, "Jimi", 60000, Arrays.asList("C", "C++"));
 		Customer c6 = new Customer(50, "Kiki", 50000, Arrays.asList("Python", "Java"));
